@@ -15,14 +15,14 @@ def generate(name):
   #add js link
   _projectScripts = open(os.path.join(rootPath,'jade','_projectScripts.jade'),'a')
   try:
-    ctx = "script(src='js/"+name+".js')"
+    ctx = "script(src='javascripts/"+name+".js')"
     _projectScripts.writelines(ctx)
     _projectScripts.write('\n')
   finally:
     _projectScripts.close()
 
   #add style.scss link
-  styleScss = open(os.path.join(rootPath,'scss','style.scss'),'a')
+  styleScss = open(os.path.join(rootPath,'sass','style.scss'),'a')
   try:
     ctx = "@import \""+name+"\";"
     styleScss.writelines(ctx)
