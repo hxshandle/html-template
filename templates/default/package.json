@@ -1,0 +1,26 @@
+{
+  "name": "jiamo",
+  "version": "0.0.1",
+  "description": "需要安装nodejs环境并且安装如下包\r ```\r npm install --save gulp\r npm install --save gulp-jade\r npm install --save gulp-sass\r npm install --save gulp-sourcemaps\r ```",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jade": "^0.11.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-sass": "^1.3.2",
+    "gulp-sourcemaps": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/hxshandle/jiamo-xx.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
